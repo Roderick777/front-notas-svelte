@@ -1,0 +1,25 @@
+
+:global(.card) {
+
+    background: #fff;
+    border-radius: 8px !important;
+    display: block;
+    -webkit-box-shadow: 0 4px 25px 0 rgba(0,0,0,.1);
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.1);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    border: none !important;
+}
+
+:global(.modal-content){
+    border: none !important;
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.1);
+
+}
+:global(.modal-footer) {
+    border-top: none !important;
+}
+
+:global(.modal-header) {
+    border-bottom: none !important;
+}
